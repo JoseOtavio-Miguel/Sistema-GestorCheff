@@ -1,0 +1,54 @@
+﻿@page "/markets/details"
+@using Microsoft.EntityFrameworkCore
+@using GestorCheff.Models
+@inject IDbContextFactory<GestorCheff.Data.AppDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Market</h2>
+    <hr />
+    @if (market is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Proprietario</dt>
+            <dd class="col-sm-10">@market.Proprietario</dd>
+            <dt class="col-sm-2">NomeLoja</dt>
+            <dd class="col-sm-10">@market.NomeLoja</dd>
+            <dt class="col-sm-2">CNPJ</dt>
+            <dd class="col-sm-10">@market.CNPJ</dd>
+            <dt class="col-sm-2">Telefone</dt>
+            <dd class="col-sm-10">@market.Telefone</dd>
+            <dt class="col-sm-2">Email</dt>
+            <dd class="col-sm-10">@market.Email</dd>
+        </dl>
+        <div>
+            <a href="@($"/markets/edit?idloja={market.IdLoja}")">Edit</a> |
+            <a href="@($"/markets")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Market? market;
+
+    [SupplyParameterFromQuery]
+    private long IdLoja { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        market = await context.Loja.FirstOrDefaultAsync(m => m.IdLoja == IdLoja);
+
+        if (market is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

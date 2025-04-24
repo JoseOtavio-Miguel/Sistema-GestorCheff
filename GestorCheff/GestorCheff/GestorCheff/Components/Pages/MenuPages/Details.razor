@@ -1,0 +1,46 @@
+﻿@page "/menus/details"
+@using Microsoft.EntityFrameworkCore
+@using GestorCheff.Models
+@inject IDbContextFactory<GestorCheff.Data.AppDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Menu</h2>
+    <hr />
+    @if (menu is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">ItemType</dt>
+            <dd class="col-sm-10">@menu.ItemType</dd>
+        </dl>
+        <div>
+            <a href="@($"/menus/edit?idmenu={menu.IdMenu}")">Edit</a> |
+            <a href="@($"/menus")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Menu? menu;
+
+    [SupplyParameterFromQuery]
+    private long IdMenu { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        menu = await context.Menu.FirstOrDefaultAsync(m => m.IdMenu == IdMenu);
+
+        if (menu is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

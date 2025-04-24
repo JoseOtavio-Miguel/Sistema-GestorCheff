@@ -1,0 +1,40 @@
+﻿@page "/markets"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using GestorCheff.Models
+@using GestorCheff.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<GestorCheff.Data.AppDbContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="markets/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Loja">
+    <PropertyColumn Property="market => market.Proprietario" />
+    <PropertyColumn Property="market => market.NomeLoja" />
+    <PropertyColumn Property="market => market.CNPJ" />
+    <PropertyColumn Property="market => market.Telefone" />
+    <PropertyColumn Property="market => market.Email" />
+
+    <TemplateColumn Context="market">
+        <a href="@($"markets/edit?idloja={market.IdLoja}")">Edit</a> |
+        <a href="@($"markets/details?idloja={market.IdLoja}")">Details</a> |
+        <a href="@($"markets/delete?idloja={market.IdLoja}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private AppDbContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

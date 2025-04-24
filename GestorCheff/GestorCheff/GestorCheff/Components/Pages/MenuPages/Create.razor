@@ -1,0 +1,44 @@
+﻿@page "/menus/create"
+@using Microsoft.EntityFrameworkCore
+@using GestorCheff.Models
+@inject IDbContextFactory<GestorCheff.Data.AppDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Menu</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Menu" OnValidSubmit="AddMenu" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="itemtype" class="form-label">ItemType:</label> 
+                <InputText id="itemtype" @bind-Value="Menu.ItemType" class="form-control" /> 
+                <ValidationMessage For="() => Menu.ItemType" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/menus">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Menu Menu { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddMenu()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Menu.Add(Menu);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/menus");
+    }
+}

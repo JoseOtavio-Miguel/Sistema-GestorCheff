@@ -1,0 +1,4 @@
+C:\Projeto\GestorCheff\GestorCheff\GestorCheff.Client\wwwroot\appsettings.Development.json
+C:\Projeto\GestorCheff\GestorCheff\GestorCheff.Client\wwwroot\appsettings.json
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json

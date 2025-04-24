@@ -1,0 +1,109 @@
+﻿@page "/markets/edit"
+@using Microsoft.EntityFrameworkCore
+@using GestorCheff.Models
+@inject IDbContextFactory<GestorCheff.Data.AppDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit</PageTitle>
+
+<h1>Edit</h1>
+
+<h2>Market</h2>
+<hr />
+@if (Market is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="Market" OnValidSubmit="UpdateMarket" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary role="alert"/>
+                <input type="hidden" name="Market.IdLoja" value="@Market.IdLoja" />
+                <div class="mb-3">
+                    <label for="proprietario" class="form-label">Proprietario:</label>
+                    <InputText id="proprietario" @bind-Value="Market.Proprietario" class="form-control" aria-required="true"/>
+                    <ValidationMessage For="() => Market.Proprietario" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="nomeloja" class="form-label">NomeLoja:</label>
+                    <InputText id="nomeloja" @bind-Value="Market.NomeLoja" class="form-control" aria-required="true"/>
+                    <ValidationMessage For="() => Market.NomeLoja" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="cnpj" class="form-label">CNPJ:</label>
+                    <InputText id="cnpj" @bind-Value="Market.CNPJ" class="form-control" />
+                    <ValidationMessage For="() => Market.CNPJ" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <InputText id="telefone" @bind-Value="Market.Telefone" class="form-control" />
+                    <ValidationMessage For="() => Market.Telefone" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <InputText id="email" @bind-Value="Market.Email" class="form-control" />
+                    <ValidationMessage For="() => Market.Email" class="text-danger" />
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/markets">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromQuery]
+    private long IdLoja { get; set; }
+
+    [SupplyParameterFromForm]
+    private Market? Market { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Market ??= await context.Loja.FirstOrDefaultAsync(m => m.IdLoja == IdLoja);
+
+        if (Market is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task UpdateMarket()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(Market!).State = EntityState.Modified;
+
+        try
+        {
+            await context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!MarketExists(Market!.IdLoja))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/markets");
+    }
+
+    private bool MarketExists(long idloja)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Loja.Any(e => e.IdLoja == idloja);
+    }
+}

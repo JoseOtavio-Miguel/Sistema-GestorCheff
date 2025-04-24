@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projeto\\GestorCheff\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\marketpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\marketpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\orderpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\orderpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\orderpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\orderpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\orderpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\orderpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\orderpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\orderpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\orderpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\orderpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\layout\\menudashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\layout\\menudashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\menupages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\menupages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\pages\\menuitempages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\pages\\menuitempages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|c:\\projeto\\gestorcheff\\gestorcheff\\gestorcheff\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAF217-4401-4966-A330-DB70B11ECE36}|GestorCheff\\GestorCheff\\GestorCheff.csproj|solutionrelative:gestorcheff\\gestorcheff\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 35,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\MarketPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\MarketPages\\Create.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\MarketPages\\Create.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\MarketPages\\Create.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:54:08.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Index.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Index.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:48:50.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Edit.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Edit.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Edit.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Edit.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:48:11.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Details.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Details.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Details.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Details.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:48:08.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Delete.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Delete.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Delete.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Delete.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:48:06.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Create.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Create.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\OrderPages\\Create.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:46:14.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\MenuPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\MenuPages\\Create.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\MenuPages\\Create.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\MenuPages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:42:31.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\MenuItemPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Pages\\MenuItemPages\\Create.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Pages\\MenuItemPages\\Create.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Pages\\MenuItemPages\\Create.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:34:12.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Models\\User.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\User.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:28:28.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Models\\Order.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Order.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Models\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:28:23.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Market.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Market.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Models\\Market.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Market.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Models\\Market.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:24:11.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\MenuItem.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:19:53.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:14:43.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuDashboard.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\MenuDashboard.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Layout\\MenuDashboard.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\MenuDashboard.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Layout\\MenuDashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:14:42.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:14:42.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmptyLayout.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\EmptyLayout.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\Layout\\EmptyLayout.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\Layout\\EmptyLayout.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\Layout\\EmptyLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:14:41.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:14:33.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\App.razor",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Components\\App.razor",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Components\\App.razor",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T01:14:32.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Models\\Menu.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Menu.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T00:30:51.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "GestorCheff\\GestorCheff\\Models\\Address.cs",
+              "ToolTip": "C:\\Projeto\\GestorCheff\\GestorCheff\\GestorCheff\\Models\\Address.cs",
+              "RelativeToolTip": "GestorCheff\\GestorCheff\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T00:18:57.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorCheff", "GestorCheff\GestorCheff\GestorCheff.csproj", "{E4EAF217-4401-4966-A330-DB70B11ECE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorCheff.Client", "GestorCheff\GestorCheff.Client\GestorCheff.Client.csproj", "{E1EA54E3-7C11-4FEF-96D0-914C765E2D44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EAF217-4401-4966-A330-DB70B11ECE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EAF217-4401-4966-A330-DB70B11ECE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EAF217-4401-4966-A330-DB70B11ECE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EAF217-4401-4966-A330-DB70B11ECE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EA54E3-7C11-4FEF-96D0-914C765E2D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EA54E3-7C11-4FEF-96D0-914C765E2D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EA54E3-7C11-4FEF-96D0-914C765E2D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EA54E3-7C11-4FEF-96D0-914C765E2D44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1045BA1E-329A-4791-BAB0-CEC9E6251289}
+	EndGlobalSection
+EndGlobal

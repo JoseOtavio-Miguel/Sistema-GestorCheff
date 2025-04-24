@@ -1,0 +1,56 @@
+﻿@page "/menuitems/details"
+@using Microsoft.EntityFrameworkCore
+@using GestorCheff.Models
+@inject IDbContextFactory<GestorCheff.Data.AppDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>MenuItem</h2>
+    <hr />
+    @if (menuitem is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Name</dt>
+            <dd class="col-sm-10">@menuitem.Name</dd>
+            <dt class="col-sm-2">Description</dt>
+            <dd class="col-sm-10">@menuitem.Description</dd>
+            <dt class="col-sm-2">Price</dt>
+            <dd class="col-sm-10">@menuitem.Price</dd>
+            <dt class="col-sm-2">Category</dt>
+            <dd class="col-sm-10">@menuitem.Category</dd>
+            <dt class="col-sm-2">IsAvailable</dt>
+            <dd class="col-sm-10">@menuitem.IsAvailable</dd>
+            <dt class="col-sm-2">ItemType</dt>
+            <dd class="col-sm-10">@menuitem.ItemType</dd>
+        </dl>
+        <div>
+            <a href="@($"/menuitems/edit?iditem={menuitem.IdItem}")">Edit</a> |
+            <a href="@($"/menuitems")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private MenuItem? menuitem;
+
+    [SupplyParameterFromQuery]
+    private long IdItem { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        menuitem = await context.MenuItem.FirstOrDefaultAsync(m => m.IdItem == IdItem);
+
+        if (menuitem is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}
